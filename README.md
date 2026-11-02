@@ -14,7 +14,7 @@ This site serves as a live record of my technical labs, architectural designs, a
 *(Below is where I document my hands-on coursework and independent labs.)*
 
 ### Semester 1:
-* [Red Team In-Class](https://github.com/EKurschner/Red-Team-In-Class)
+* [Red Team In-Class](https://github.com/EKurschner/Red_Team_In-Class)
 * Example 2
 * Example 3
 
