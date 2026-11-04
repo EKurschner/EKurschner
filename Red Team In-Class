@@ -7,7 +7,7 @@
 Newly hired mock employee made a critical operational security error. Making a social media post leaving their physical access badge in the image. Technical goal: Extract the badge data from the photograph, correct the skewed perspective, use AI to remove glare and obstructions, hallucinate the missing background elements, and assemble a native digital clone.
 
 ## 2. Architecture & Design
-![Scenario Image](RedTeam In-Class.jpg) 
+![Scenario Image](EKurschner/images/RedTeam In-Class.jpg) 
 *Caption: Scenario image of an mock employee's first day post*
 ## 3. Methodology & Execution
 *Document the core steps you took to complete the objective. Focus on the **why**, not just the **what**. Do not dump every single command you typed—capture the important decisions.*
