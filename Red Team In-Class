@@ -1,30 +1,30 @@
 •	# [Project Title: e.g., Small Business Network Deployment & VLAN Configuration]
-**Date:** [Month, Year]  5
-**Security Domain:** [e.g., Network Infrastructure, Physical Security, Endpoint Security]  
-**Tools & Hardware Used:** [e.g., Cisco Packet Tracer, Draw.io, Wireshark, Lockpick Set, Ubuntu 22.04]  
+**Date:** [October, 2026]  
+**Security Domain:** Physical Security
+**Tools & Hardware Used:** PhotoCraft, & Google Gemini Image Generator, Font-Identification Site.
 ---
 ## 1. Scenario & Objective
-*What was the business or technical goal of this project? (Write 2-3 sentences).*
-**Example:** A small business required a segmented network to separate guest Wi-Fi traffic from internal employee data. The objective of this project was to design the network topology, configure VLANs on a Cisco switch, and verify isolation between the two networks.
+Newly hired mock employee made a critical operational security error. Making a social media post leaving their physical access badge in the image. Technical goal: Extract the badge data from the photograph, correct the skewed perspective, use AI to remove glare and obstructions, hallucinate the missing background elements, and assemble a native digital clone.
+
 ## 2. Architecture & Design
-*Insert a diagram, network topology, or photo of your lab setup here. (If physical security, upload a photo of the hardware or a floor plan).*
-![Insert Image Description Here](image-link-goes-here.jpg)
-*Caption: Network topology created in Draw.io showing VLAN 10 (Internal) and VLAN 20 (Guest).*
+![Scenario Image](RedTeam In-Class.jpg) 
+*Caption: Scenario image of an mock employee's first day post*
 ## 3. Methodology & Execution
 *Document the core steps you took to complete the objective. Focus on the **why**, not just the **what**. Do not dump every single command you typed—capture the important decisions.*
-1. **Initial Assessment:** [What did you check first?]
-   * *Observation:* [What did you see?]
-2. **Configuration / Execution:** [What changes did you make?]
-   * *Reasoning:* [Why did you configure it this way?]
-3. **Validation:** [How did you prove it worked?]
+1. **Initial Assessment:** Examining the skew, glare and obstructions
+   * *Observation:* The target image was taken at an angle, and the ID was not even on either axis, had a mild glare, and was slightly covered by an envelope.
+2. **Configuration / Execution:** Beginning with the skew, then moving onto the glare and covered corner of the ID, then finally moving onto changing the ID name and photo.
+   * *Reasoning:* Starting with removing skew in PhotoCraft gave the image an inital crop to remove the unneeded parts of the image and set it up for the next steps. next used Gemini to remove glare and repair the covered portion of the ID. Then finally matched the font using a font-identification site and replaced the photo on the ID with a photo of myself.
+3. **Validation:** Compared the ID badge I created to the mock employee's badge in class after it was printed.
 ## 4. Challenges & Troubleshooting
 *No IT project goes perfectly. What broke, and how did you fix it? (Hiring managers specifically look for this section to see your problem-solving skills).*
-* **Issue Encountered:** [e.g., PC-A could not ping the default gateway.]
-* **Troubleshooting Steps:** [e.g., Checked IP settings, verified switchport mode.]
-* **Resolution:** [e.g., Discovered the port was assigned to the wrong VLAN. Reassigned to VLAN 10, which restored connectivity.]
+* **Issue Encountered:** AI hallucinating things it wasn't asked to onto the image.
+* **Troubleshooting Steps:** Reprompting, and reverting from a save.
+* **Resolution:** Reprompted the AI to fix the hallucinated parts, and if that didn't work I revereted from a save file and prompted it in a different way to get the desired effect.
 ## 5. Conclusion & Lessons Learned
 *Summarize the final outcome and the professional takeaways.*
-**Final Outcome:** [e.g., The network was successfully segmented, and guest traffic is now isolated from the internal server.]
-* **Lessons Learned:** [e.g., Always verify trunk port configurations before testing endpoint connectivity.]
-* **Security Recommendations:** [If applicable, how would you secure this further in the real world?]
+**Final Outcome:** ![Modified ID Badge](RedTeam Badge In-Class.jpg) 
+*Caption: Edited ID Badge
+* **Lessons Learned:** Always verify an ID badge beyond physical inspection because it is incredibly easy and expeditious to manufacture a fake ID badge off of a simple photo.
+* **Security Recommendations:** If applicable, ensure every employee utilizes the physical hardware embedded in access cards, don't rely on a quick physical inspection, and don't allow employee's to piggyback entry using a different employee's ID badge.
 
